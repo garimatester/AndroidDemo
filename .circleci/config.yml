@@ -5,6 +5,7 @@ jobs:
       - image: debian:stretch
   deployment:
   espresso:
+  steps:
     branch: master
     commands:
     # start the emulator
