@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/code
+    working_directory: app/src/androidTest/java/com/mytaxi/android_demo/MultiActivityTest.java
     docker:
       - image: circleci/android:api-25-alpha
     environment:
