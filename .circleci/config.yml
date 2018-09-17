@@ -8,11 +8,11 @@ jobs:
       JVM_OPTS: -Xmx3200m
     steps:
     - run:
-      name: Chmod permissions #if permission for Gradlew Dependencies fail, use this. 
-       command: sudo chmod +x ./gradlew
-      - run:
-          name: Download Dependencies
-          command: ./gradlew androidDependencies
+      name: Chmod permissions 
+       command: sudo chmod +x ./gradlew androidDependencies
+   #   - run:
+    #      name: Download Dependencies
+    #      command: ./gradlew androidDependencies
       - save_cache:
           paths:
             - ~/.gradle
