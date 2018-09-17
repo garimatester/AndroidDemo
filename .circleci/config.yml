@@ -46,8 +46,8 @@ jobs:
       - run:
           name: Run EspressoTests
           #command: gradlew tasks 
-         # command:  ./gradlew connectedAndroidTest -PdisablePreDex
-          command: ./gradlew app/src/androidTest/java/com/mytaxi/android_demo/MultiActivityTest.java
+          command:  ./gradlew connectedAndroidTest -PdisablePreDex
+         # command: ./gradlew app/src/androidTest/java/com/mytaxi/android_demo/MultiActivityTest.java
       - store_artifacts:
           path: app/build/outputs/logs
           destination: reports
