@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ankit.sharma\\Downloads\\MobileAppAutomationTest\\AndroidDemo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-tl\\values-tl.xml",
+            "outputFile": "C:\\Users\\ankit.sharma\\Documents\\ANKITFILES\\MobileAppAutomationTest\\MobileAppAutomationTest\\AndroidDemo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\3ca88bcc1d3b45393780ceb025baf599\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a1ebb227e7e292a3e8a38fcaa3ac8d20\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

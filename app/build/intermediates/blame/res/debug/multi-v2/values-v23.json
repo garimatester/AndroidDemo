@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ankit.sharma\\Downloads\\MobileAppAutomationTest\\AndroidDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\ankit.sharma\\Documents\\ANKITFILES\\MobileAppAutomationTest\\MobileAppAutomationTest\\AndroidDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\6f074dfb4614d994b4defd4c91af77d0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\1fa13a337d9a226c8b46bc2619d31ec8\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a9f22f1e4f9f811c935da314bd551853\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0a01e8c5a8fe1b68ab86901090f53bbf\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

@@ -72,7 +72,6 @@ public class MainActivity extends AuthenticatedActivity
             startActivity(AuthenticationActivity.createIntent(MainActivity.this));
         } else {
             DrawerLayout drawer = findViewById(R.id.drawer_layout);
-            Log.d(LOG_TAG, "onResume Main Activity: ");
             NavigationView nav = drawer.findViewById(R.id.nav_view);
             ((TextView) nav.getHeaderView(0).findViewById(R.id.nav_username)).setText(mSharedPrefStorage.loadUser().getUsername());
         }
@@ -164,7 +163,6 @@ public class MainActivity extends AuthenticatedActivity
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         mPermissionHelper.setLocationPermissionGranted(false);
-
         switch (requestCode) {
             case PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION: {
                 // If request is cancelled, the result arrays are empty.
@@ -173,8 +171,6 @@ public class MainActivity extends AuthenticatedActivity
                     mPermissionHelper.setLocationPermissionGranted(true);
                 }
             }
-
-
         }
         updateLocationUI();
     }

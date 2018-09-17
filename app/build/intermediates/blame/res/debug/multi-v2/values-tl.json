@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ankit.sharma\\Downloads\\MobileAppAutomationTest\\AndroidDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "outputFile": "C:\\Users\\ankit.sharma\\Documents\\ANKITFILES\\MobileAppAutomationTest\\MobileAppAutomationTest\\AndroidDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\dcaad77563f3fdc95a0795a5e6ea4e01\\res\\values-tl\\values.xml",
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0a01e8c5a8fe1b68ab86901090f53bbf\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,1926",
+                        "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
+                        "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,2005"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,4989",
+                        "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
+                        "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,5068"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\a7232184ef8aa5215a167d62a835c686\\res\\values-tl\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,41 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\3ca88bcc1d3b45393780ceb025baf599\\res\\values-tl\\values-tl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "40",
-                        "startColumns": "4",
-                        "startOffsets": "5073",
-                        "endColumns": "100",
-                        "endOffsets": "5169"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.1.aar\\cae0fb9a59d1accebeb7bd83306a6d4a\\res\\values-tl\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "193,302",
-                        "endColumns": "108,93",
-                        "endOffsets": "301,395"
-                    },
-                    "to": {
-                        "startLines": "37,38",
-                        "startColumns": "4,4",
-                        "startOffsets": "4778,4891",
-                        "endColumns": "112,97",
-                        "endOffsets": "4886,4984"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\17735e78d9f4b0f5454ef35b52b63d41\\res\\values-tl\\values.xml",
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\29aa7ac6e36d452855f2996a262e2304\\res\\values-tl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,20 +55,37 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a9f22f1e4f9f811c935da314bd551853\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a1ebb227e7e292a3e8a38fcaa3ac8d20\\res\\values-tl\\values-tl.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,1926",
-                        "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
-                        "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,2005"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,39",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,224,332,449,537,643,764,843,921,1005,1114,1225,1326,1436,1553,1661,1824,4989",
-                        "endColumns": "118,107,116,87,105,120,78,77,83,108,110,100,109,116,107,162,101,83",
-                        "endOffsets": "219,327,444,532,638,759,838,916,1000,1109,1220,1321,1431,1548,1656,1819,1921,5068"
+                        "startLines": "40",
+                        "startColumns": "4",
+                        "startOffsets": "5073",
+                        "endColumns": "100",
+                        "endOffsets": "5169"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ankit.sharma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.1.aar\\cb55820f3a44023d43d16ee7d0df6a8b\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,302",
+                        "endColumns": "108,93",
+                        "endOffsets": "301,395"
+                    },
+                    "to": {
+                        "startLines": "37,38",
+                        "startColumns": "4,4",
+                        "startOffsets": "4778,4891",
+                        "endColumns": "112,97",
+                        "endOffsets": "4886,4984"
                     }
                 }
             ]

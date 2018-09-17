@@ -1,6 +1,5 @@
 package com.mytaxi.android_demo.utils;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
@@ -9,14 +8,8 @@ import android.support.v4.content.ContextCompat;
 public class PermissionHelper {
 
     static public final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
+
     private boolean mLocationPermissionGranted;
-
-
-
-
-
-
-
 
     public void getLocationPermission(Activity activity) {
     /*
@@ -42,6 +35,5 @@ public class PermissionHelper {
     public void setLocationPermissionGranted(boolean locationPermissionGranted) {
         this.mLocationPermissionGranted = locationPermissionGranted;
     }
-
 
 }

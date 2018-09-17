@@ -911,7 +911,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB_5TTJBkDcMSV0IXetg7SIEpF0fJFCA34</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBXJwCsgQigTk9JxBEDLk6_hrLrxtYyYdA</string>
     <string name="message_login_fail">Login failed</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
