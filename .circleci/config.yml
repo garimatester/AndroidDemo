@@ -1,5 +1,17 @@
 version: 2
 jobs:
+  build:
+  working_directory: ~/mycode
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+      - run:
+          name: Print the Current Time
+          command: date
   test:
     # start the emulator
     - emulator -avd circleci-android22 -no-audio -no-window:
@@ -16,3 +28,15 @@ jobs:
     - cp -r app/build/outputs $CIRCLE_ARTIFACTS
     # copy the test results to the test results directory.
     - cp -r app/build/outputs/androidTest-results/* $CIRCLE_TEST_REPORTS
+    
+ workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
