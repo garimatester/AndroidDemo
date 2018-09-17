@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: app/src/androidTest/java/com/mytaxi/android_demo/MultiActivityTest.java
     docker:
-      - image: circleci/android:api-25-alpha
+      - image: debian:stretch
     environment:
       JVM_OPTS: -Xmx3200m
     steps:
