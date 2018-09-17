@@ -27,7 +27,6 @@ jobs:
         #  command: ./gradlew DemoUnitTest
       - run:
           name: Setup emulator
-          
           command: emulator -avd circleci-android23 -no-audio -no-window
           #command: sdkmanager "system-images;android-25;default;armeabi-v7a" && echo "no" | avdmanager create avd -n test -k "system-images;android-25;default;armeabi-v7a"
          # command: sdkmanager "system-images;android-21;google_apis;armeabi-v7a" && echo "no" | avdmanager create avd -n test -k "system-images;android-21;google_apis;armeabi-v7a"
