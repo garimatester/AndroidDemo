@@ -49,7 +49,7 @@ jobs:
           command:  ./gradlew connectedAndroidTest -PdisablePreDex
          # command: ./gradlew app/src/androidTest/java/com/mytaxi/android_demo/MultiActivityTest.java
       - store_artifacts:
-          path: app/build/reports
+          path: app/build/outputs/logs
           destination: reports
       - store_test_results:
           path: app/build/test-results
