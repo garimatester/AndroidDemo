@@ -32,10 +32,10 @@ jobs:
       - run:
           name: Launch emulator
           command:Start Android Studio
-          command:Select menu "Tools > Android > SDK Manager"
-          command:"SDK Tools" tab
-          command:Check "Android Emulator" checkbox
-          command:Click "OK"
+         # command:Select menu "Tools > Android > SDK Manager"
+          #command:"SDK Tools" tab
+          #command:Check "Android Emulator" checkbox
+         # command:Click "OK"
          # command: export LD_LIBRARY_PATH=${ANDROID_HOME}/emulator/lib64:${ANDROID_HOME}/emulator/lib64/qt/lib && emulator64-arm -avd test -noaudio -no-boot-anim -no-window -accel auto -verbose
           command: export LD_LIBRARY_PATH=${ANDROID_HOME}/emulator/lib64:${ANDROID_HOME}/emulator/lib64/qt/lib && emulator64-arm -avd test -noaudio -no-boot-anim -no-window -accel on
           background: true
