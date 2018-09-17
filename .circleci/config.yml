@@ -1,24 +1,5 @@
 version: 2
 jobs:
-  build:
-    working_directory: ~/code
-    docker:
-      - image: debian:stretch
-    environment:
-      JVM_OPTS: -Xmx3200m
-    steps:
-      - run:
-          name: Run Tests
-        
-      - store_artifacts:
-          path: app/build/reports
-         
-      - store_test_results:
-          path: app/build/test-results
-     
-     
-version: 2
-jobs:
   test:
     # start the emulator
     - emulator -avd circleci-android22 -no-audio -no-window:
